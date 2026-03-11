@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(rgba(36, 36, 36, 0.475), rgba(0, 0, 0, 0.399));
+    height: 100vh;
+}
+#logo{
+    width: 500px;
+    height: auto;
+    margin-top: -190px;
+    margin-bottom: -200px;
+}
+fieldset{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 88, 149, 0.356/50%);
+    border-radius: 10px;
+    width: 300px;
+}
+h1{
+    margin-top: -6px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+#email , #password {
+    width: 90%;
+    padding: 10px;
+    margin-top: -10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+#Forgot{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+    
+}
+
+    
+ #SignIn {
+    width: 95%;
+    padding: 10px;
+    background-color: #ffffff52;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+fieldset div a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+fieldset div fieldset{
+    
+    color: rgb(1, 0, 0);
+    width: 70%;
+    height: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#New a{
+    text-decoration: none;
+    text-align: left;
+    margin-top: 20px;
+    color: #b469ba;
+}
+#content a {
+    text-decoration: none;
+    color: #b469ba;
+    font-size: 14px;
+
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#content p{
+    font-size: 14px;
+    color: white;
+}
